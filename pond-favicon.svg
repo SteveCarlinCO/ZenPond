@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- water -->
+  <circle cx="32" cy="32" r="30" fill="#1a4a5e"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#0f2d41" stroke-width="2"/>
+  <!-- lily pad -->
+  <path d="M32 32 L50 18 A20 20 0 1 0 50 46 Z" fill="#3d8a4a"/>
+  <path d="M32 32 L50 18 A20 20 0 1 0 50 46 Z" fill="none" stroke="#2a6a35" stroke-width="1.5"/>
+  <!-- pad vein -->
+  <line x1="32" y1="32" x2="44" y2="24" stroke="#2a6a35" stroke-width="1"/>
+  <!-- flower -->
+  <circle cx="32" cy="32" r="6" fill="#e8a0c8"/>
+  <circle cx="32" cy="32" r="3" fill="#f8d0e8"/>
+  <!-- ripple -->
+  <ellipse cx="32" cy="48" rx="12" ry="3" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+</svg>

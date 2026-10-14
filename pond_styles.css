@@ -1,0 +1,26 @@
+:root{
+  --surface:#1a1a1a; --text:#e8e6e3; --border:#444;
+}
+*{box-sizing:border-box;}
+body{
+  margin:0; padding:12px; background:#0d0d0d; color:var(--text);
+  font-family:'Segoe UI',system-ui,sans-serif; max-width:940px; margin:0 auto;
+}
+.canvas-holder canvas{
+  width:100%; height:auto; display:block; border-radius:10px;
+  border:1px solid var(--border);
+}
+.control-row{
+  display:flex; gap:8px; align-items:center; margin-top:10px;
+}
+.title-center{
+  flex:1; display:flex; gap:12px; align-items:center; justify-content:center;
+}
+#simTitle{
+  font-size:16px; color:#7ab8ff; letter-spacing:.2em; font-weight:700;
+}
+#randomBtn,#resetBtn{
+  background:var(--surface); color:var(--text); border:1px solid var(--border);
+  border-radius:8px; padding:8px 18px; font-size:13px; cursor:pointer;
+}
+#randomBtn:hover,#resetBtn:hover{background:#2a2a2a;}
